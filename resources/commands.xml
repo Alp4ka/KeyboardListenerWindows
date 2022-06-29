@@ -1,0 +1,47 @@
+<root>
+    <settings>
+        <browser path="C:/Users/kisam/AppData/Local/Yandex/YandexBrowser/Application/browser.exe %s"/>
+    </settings>
+
+    <commands>
+        <web-command>
+            <name>translator</name>
+            <shortcut>yatr</shortcut>
+            <page-url>https://translate.yandex.ru/</page-url>
+        </web-command>
+
+        <web-command>
+            <name>yandex</name>
+            <shortcut>ya</shortcut>
+            <page-url>https://yandex.ru/</page-url>
+            <browser path ="C:/'Program Files (x86)'/Microsoft/Edge/Application/msedge.exe %s"/>
+        </web-command>
+
+        <bash-command>
+            <name>gitkraken</name>
+            <shortcut>gitk</shortcut>
+            <text>C:/Users/kisam/AppData/Local/gitkraken/Update.exe --processStart "gitkraken.exe"</text>
+        </bash-command>
+
+        <bash-command>
+            <name>calc</name>
+            <description>Time to calc!</description>
+            <shortcut>calc</shortcut>
+            <text>calc</text>
+        </bash-command>
+
+        <bash-command>
+            <name>edge</name>
+            <description>Opens edge browser!</description>
+            <shortcut>edge</shortcut>
+            <text>C:/"Program Files (x86)"/Microsoft/Edge/Application/msedge.exe</text>
+        </bash-command>
+
+        <bash-command>
+            <name> КМД </name>
+            <description> Открывает кмд в новом окне. </description>
+            <shortcut>cmd</shortcut>
+            <text>start cmd</text>
+        </bash-command>
+    </commands>
+</root>
